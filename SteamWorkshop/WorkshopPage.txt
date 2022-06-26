@@ -1,0 +1,28 @@
+﻿[img=https://raw.githubusercontent.com/Danimineiro/RW_dropOnFloorAndForbid/master/Workshop/feature.png][/img]
+[img=https://raw.githubusercontent.com/Danimineiro/RW_ExtraMemes/master/1.3/Textures/UI/Memes/DNAustere.png][/img]
+[h2]Austere lifestyle[/h2]
+[quote]There's much to gain from living a simple yet disicplined life.[/quote]
+This meme comes with the following required precepts:
+[list][*] Comfort: Ignored
+[*] Slab Bed: Preferred
+[*] Rough Living: Welcomed
+[*] Small Spaces: Don't care
+[*] Skullspike: Disapproved
+[*] Slavery: Disapproved/Horrible/Abhorrent[/list]
+
+[img=https://raw.githubusercontent.com/Danimineiro/RW_ExtraMemes/master/1.3/Textures/UI/Memes/DNMinimalist.png][/img]
+[h2]Minimalist[/h2]
+[quote]There's nothing to gain from wasting space.[/quote]
+This meme comes with the following required precept:
+[list][*] Small Spaces: don't care[/list]
+
+I don't currently plan to add any more, but do feel free to throw out ideas :3
+
+[img=https://raw.githubusercontent.com/Danimineiro/RW_TinctoriaSimplified/2b01e89a79937a5b6c81ac1b201f4f8f0363a749/SteamWorkshop/Compatibility.png][/img]
+Should be compatible with any mod out there.
+
+[img=https://raw.githubusercontent.com/Danimineiro/RW_dropOnFloorAndForbid/master/Workshop/links.png][/img]
+[url=https://github.com/Danimineiro/RW_ExtraMemes]GitHub[/url]
+[url=https://ko-fi.com/Dani]Ko-Fi[/url]
+
+[url=https://discord.gg/7befJWr9xS][img]https://i.imgur.com/cfoFEMA.png[/img][/url]
