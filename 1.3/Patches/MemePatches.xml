@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+	<!-- Exclusions -->
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/MemeDef[defName="Raider"]/exclusionTags</xpath>
 		<nomatch Class="PatchOperationAdd">
@@ -50,6 +51,151 @@
 			<xpath>/Defs/PreceptDef[defName="IdeoRole_PlantSpecialist"]/requiredMemes</xpath>
 			<value>
 				<li>AustereLifestyle</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Requirements -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PreceptDef[defName="Comfort_Ignored"]/requiredMemes</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="Comfort_Ignored"]</xpath>
+			<value>
+				<requiredMemes>
+					<li>AustereLifestyle</li>
+				</requiredMemes>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="Comfort_Ignored"]/requiredMemes</xpath>
+			<value>
+				<li>AustereLifestyle</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PreceptDef[defName="SlabBed_Preferred"]/requiredMemes</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="SlabBed_Preferred"]</xpath>
+			<value>
+				<requiredMemes>
+					<li>AustereLifestyle</li>
+				</requiredMemes>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="SlabBed_Preferred"]/requiredMemes</xpath>
+			<value>
+				<li>AustereLifestyle</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PreceptDef[defName="RoughLiving_Welcomed"]/requiredMemes</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="RoughLiving_Welcomed"]</xpath>
+			<value>
+				<requiredMemes>
+					<li>AustereLifestyle</li>
+				</requiredMemes>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="RoughLiving_Welcomed"]/requiredMemes</xpath>
+			<value>
+				<li>AustereLifestyle</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PreceptDef[defName="RoughLiving_Welcomed"]/associatedMemes</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="RoughLiving_Welcomed"]</xpath>
+			<value>
+				<associatedMemes>
+					<li>AustereLifestyle</li>
+				</associatedMemes>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="RoughLiving_Welcomed"]/associatedMemes</xpath>
+			<value>
+				<li>AustereLifestyle</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PreceptDef[defName="Temperature_Tough"]/requiredMemes</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="Temperature_Tough"]</xpath>
+			<value>
+				<requiredMemes>
+					<li>AustereLifestyle</li>
+				</requiredMemes>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="Temperature_Tough"]/requiredMemes</xpath>
+			<value>
+				<li>AustereLifestyle</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PreceptDef[defName="Temperature_Tough"]/associatedMemes</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="Temperature_Tough"]</xpath>
+			<value>
+				<associatedMemes>
+					<li>AustereLifestyle</li>
+				</associatedMemes>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="Temperature_Tough"]/associatedMemes</xpath>
+			<value>
+				<li>AustereLifestyle</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PreceptDef[defName="SmallSpaces_Acceptable"]/requiredMemes</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="SmallSpaces_Acceptable"]</xpath>
+			<value>
+				<requiredMemes>
+					<li>AustereLifestyle</li>
+				</requiredMemes>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="SmallSpaces_Acceptable"]/requiredMemes</xpath>
+			<value>
+				<li>AustereLifestyle</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PreceptDef[defName="SmallSpaces_Acceptable"]/requiredMemes</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="SmallSpaces_Acceptable"]</xpath>
+			<value>
+				<requiredMemes>
+					<li>Minimalist</li>
+				</requiredMemes>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="SmallSpaces_Acceptable"]/requiredMemes</xpath>
+			<value>
+				<li>Minimalist</li>
 			</value>
 		</match>
 	</Operation>
