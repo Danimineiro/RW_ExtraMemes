@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/MemeDef[defName="Raider"]/exclusionTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/MemeDef[defName="Raider"]</xpath>
+			<value>
+				<exclusionTags>
+					<li>AustereRaiding</li>
+				</exclusionTags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/MemeDef[defName="Raider"]/exclusionTags</xpath>
+			<value>
+				<li>AustereRaiding</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/MemeDef[defName="Supremacist"]/exclusionTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/MemeDef[defName="Supremacist"]</xpath>
+			<value>
+				<exclusionTags>
+					<li>AustereSupremacy</li>
+				</exclusionTags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/MemeDef[defName="Supremacist"]/exclusionTags</xpath>
+			<value>
+				<li>AustereSupremacy</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PreceptDef[defName="IdeoRole_PlantSpecialist"]/requiredMemes</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="IdeoRole_PlantSpecialist"]</xpath>
+			<value>
+				<requiredMemes>
+					<li>AustereLifestyle</li>
+				</requiredMemes>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="IdeoRole_PlantSpecialist"]/requiredMemes</xpath>
+			<value>
+				<li>AustereLifestyle</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>
