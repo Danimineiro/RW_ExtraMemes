@@ -102,7 +102,7 @@
 	</MemeDef>
 
 	<MemeDef>
-		<defName>Minimalist</defName>
+		<defName>AustereMinimalist</defName>
 		<label>minimalist</label>
 		<description>There's nothing to gain from wasting space.</description>
 		<iconPath>UI/Memes/DNMinimalist</iconPath>

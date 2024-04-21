@@ -188,14 +188,14 @@
 			<xpath>/Defs/PreceptDef[defName="SmallSpaces_Acceptable"]</xpath>
 			<value>
 				<requiredMemes>
-					<li>Minimalist</li>
+					<li>AustereMinimalist</li>
 				</requiredMemes>
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
 			<xpath>/Defs/PreceptDef[defName="SmallSpaces_Acceptable"]/requiredMemes</xpath>
 			<value>
-				<li>Minimalist</li>
+				<li>AustereMinimalist</li>
 			</value>
 		</match>
 	</Operation>
