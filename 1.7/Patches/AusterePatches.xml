@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PreceptDef[defName="Indoors_Acceptable"]/requiredMemes</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="Indoors_Acceptable"]</xpath>
+			<value>
+				<requiredMemes>
+					<li>AustereLifestyle</li>
+				</requiredMemes>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="Indoors_Acceptable"]/requiredMemes</xpath>
+			<value>
+				<li>AustereLifestyle</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/PreceptDef[defName="Indoors_Acceptable"]/requiredMemes</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="Indoors_Acceptable"]</xpath>
+			<value>
+				<requiredMemes>
+					<li>AustereMinimalist</li>
+				</requiredMemes>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PreceptDef[defName="Indoors_Acceptable"]/requiredMemes</xpath>
+			<value>
+				<li>AustereMinimalist</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>
